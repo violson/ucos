@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User -I..\UCOS-II\Config -I..\UCOS-II\Ports -I..\UCOS-II\Source -I "D:\Keil\ARM\INC" -I "D:\Keil\ARM\INC\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "..\Output\app.o" --omf_browse "..\Output\app.crf" --depend "..\Output\app.d" "..\UCOS-II\Source\app.c"
